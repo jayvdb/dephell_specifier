@@ -9,8 +9,8 @@ before_install:
   # install DepHell
   # https://github.com/travis-ci/travis-ci/issues/8589
   - pyenv install --list
-  - pyenv install 3.6.8
-  - pyenv global 3.6.8
+  - pyenv install 3.6.3
+  - pyenv global 3.6.3
   - curl https://raw.githubusercontent.com/dephell/dephell/master/install.py | /opt/python/3.6/bin/python
   - dephell inspect self
 install:
