@@ -1,4 +1,5 @@
 language: python
+dist: xenial
 
 before_install:
   # show a little bit more information about environment
